@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --color-text: #1e1e1e;
+
+  --font: "Raleway", sans-serif;
+}
+
+body {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-family: var(--font);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-two);
+  text-decoration: none;
+}
+/* button */
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #fff;
+  color: var(--color-text);
+  border-radius: 45px;
+  font-size: 13px;
+}
+
+.button-two {
+  background-color: var(--color-two);
+  color: white;
+}
+
+.button-two:hover {
+  background-color: var(--color-one);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.inner-input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 0;
+}
+
+.inner-input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* End button */
